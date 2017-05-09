@@ -119,20 +119,3 @@ elon = 360.0
 "diffcbt","Persian Gulf","itable=338,jtable=136,ktable_1=1,ktable_2=4,diff_cbt_table=0.01"
 "diffcbt","Persian Gulf","itable=336,jtable=136,ktable_1=1,ktable_2=4,diff_cbt_table=0.01"
 "diffcbt","Persian Gulf","itable=338,jtable=135,ktable_1=1,ktable_2=4,diff_cbt_table=0.01"/
-###.................................................
-###  MDPPM for generic obgc tracers 
-"tracer_packages","ocean_mod","generic_topaz"
-names = _
-horizontal-advection-scheme = mdppm
-vertical-advection-scheme = mdppm
-ppm_hlimiter=2
-ppm_vlimiter=2
-min_tracer_limit=0.0
-/
-"namelists","ocean_mod","generic_topaz/*global*"
-/
-"namelists","ocean_mod","generic_topaz"
-init = f
-/
-# "namelists","ocean_mod","generic_cfc"
-# /
