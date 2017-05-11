@@ -37,5 +37,5 @@ exe: MOM5_SIS
 input:
     - MOM_SIS_TOPAZ/grids
     - MOM_SIS_TOPAZ/initial
-    - /g/data1/v45/aph502/jra55/kial_regrid/regrid_025/unlim/
+    - /g/data1/v45/aph502/jra55/RYF
 

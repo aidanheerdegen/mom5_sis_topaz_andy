@@ -1,19 +1,19 @@
-"ATM" , "p_surf"        , "slp"         , "./INPUT/slp_RYF_1may1984_30april1985.nc"       , .false. ,  1.0
-"ATM" , "p_bot"         , "slp"         , "./INPUT/slp_RYF_1may1984_30april1985.nc"       , .false. ,  1.0
-"ATM" , "t_bot"         , "t_10"        , "./INPUT/t_10_RYF_1may1984_30april1985.nc"     , .false. ,  1.0
-"ATM" , "sphum_bot"     , "q_10"        , "./INPUT/q_10_RYF_1may1984_30april1985.nc"     , .false. ,  1.0
-"ATM" , "u_bot"         , "u_10"        , "./INPUT/u_10_RYF_1may1984_30april1985.nc"     , .false. ,  1.0
-"ATM" , "v_bot"         , "v_10"        , "./INPUT/v_10_RYF_1may1984_30april1985.nc"     , .false. ,  1.0
-"ATM" , "z_bot"         , ""            , ""                             , .false. , 10.0
-"ATM" , "gust"          , ""            , ""                             , .false. ,  1.0e-4
-"ICE" , "lw_flux_dn"    , "rlds"        , "./INPUT/rlds_RYF_1may1984_30april1985.nc"     , .false. ,  1.0
-"ICE" , "sw_flux_vis_dir_dn", "rsds"    , "./INPUT/rsds_RYF_1may1984_30april1985.nc", .false. , 0.285
-"ICE" , "sw_flux_vis_dif_dn", "rsds"    , "./INPUT/rsds_RYF_1may1984_30april1985.nc", .false. , 0.285
-"ICE" , "sw_flux_nir_dir_dn", "rsds"    , "./INPUT/rsds_RYF_1may1984_30april1985.nc", .false. , 0.215
-"ICE" , "sw_flux_nir_dif_dn", "rsds"    , "./INPUT/rsds_RYF_1may1984_30april1985.nc", .false. , 0.215
-"ICE" , "lprec"         , "rain"        , "./INPUT/rain_RYF_1may1984_30april1985.nc"  , .false. ,  0.9933
-"ICE" , "fprec"         , "snow"        , "./INPUT/snow_RYF_1may1984_30april1985.nc"  , .false. ,  0.9933
-"ICE" , "runoff"        , "runoff"      , "./INPUT/runoff_RYF_1may1984_30april1985.025.nc"            , .true.  ,  1.0
+"ATM" , "p_surf"        , "psl"         , "./INPUT/RYF.slp.1984_1985.nc"      , .false. ,  1.0
+"ATM" , "p_bot"         , "psl"         , "./INPUT/RYF.slp.1984_1985.nc"      , .false. ,  1.0
+"ATM" , "t_bot"         , "tas_10m"     , "./INPUT/RYF.t_10.1984_1985.nc"     , .false. ,  1.0
+"ATM" , "sphum_bot"     , "huss_10m"    , "./INPUT/RYF.q_10.1984_1985.nc"     , .false. ,  1.0
+"ATM" , "u_bot"         , "uas_10m"     , "./INPUT/RYF.u_10.1984_1985.nc"     , .false. ,  1.0
+"ATM" , "v_bot"         , "vas_10m"     , "./INPUT/RYF.v_10.1984_1985.nc"     , .false. ,  1.0
+"ATM" , "z_bot"         , ""            , ""                                  , .false. , 10.0
+"ATM" , "gust"          , ""            , ""                                  , .false. ,  1.0e-4
+"ICE" , "lw_flux_dn"    , "rlds"        , "./INPUT/RYF.rlds.1984_1985.nc"     , .false. ,  1.0
+"ICE" , "sw_flux_vis_dir_dn", "rsds"    , "./INPUT/RYF.rsds.1984_1985.nc"     , .false. , 0.285
+"ICE" , "sw_flux_vis_dif_dn", "rsds"    , "./INPUT/RYF.rsds.1984_1985.nc"     , .false. , 0.285
+"ICE" , "sw_flux_nir_dir_dn", "rsds"    , "./INPUT/RYF.rsds.1984_1985.nc"     , .false. , 0.215
+"ICE" , "sw_flux_nir_dif_dn", "rsds"    , "./INPUT/RYF.rsds.1984_1985.nc"     , .false. , 0.215
+"ICE" , "lprec"         , "prrn"        , "./INPUT/RYF.rain.1984_1985.nc"     , .false. ,  0.9933
+"ICE" , "fprec"         , "prsn"        , "./INPUT/RYF.snow.1984_1985.nc"     , .false. ,  0.9933
+"ICE" , "runoff"        , "runoff"      , "./INPUT/RYF.runoff_all.1984_1985.025.nc"            , .true.  ,  1.0
 "ICE" , "calving"       , ""            , ""                             , .true.  ,  0.0
 "ICE" , "dhdt"          , ""            , ""                             , .true.  ,  80.0
 "ICE" , "dedt"          , ""            , ""                             , .true.  ,  2.0e-6
