@@ -13,7 +13,7 @@
 "ICE" , "sw_flux_nir_dif_dn", "rsds"    , "./INPUT/RYF.rsds.1984_1985.nc"     , .false. , 0.215
 "ICE" , "lprec"         , "prrn"        , "./INPUT/RYF.rain.1984_1985.nc"     , .false. ,  0.9933
 "ICE" , "fprec"         , "prsn"        , "./INPUT/RYF.snow.1984_1985.nc"     , .false. ,  0.9933
-"ICE" , "runoff"        , "runoff"      , "./INPUT/RYF.runoff_all.1984_1985.025.nc"            , .true.  ,  1.0
+"ICE" , "runoff"        , "runoff"      , "./INPUT/RYF.runoff_all.1984_1985.01.nc"            , .true.  ,  1.0
 "ICE" , "calving"       , ""            , ""                             , .true.  ,  0.0
 "ICE" , "dhdt"          , ""            , ""                             , .true.  ,  80.0
 "ICE" , "dedt"          , ""            , ""                             , .true.  ,  2.0e-6
